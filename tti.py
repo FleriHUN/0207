@@ -18,26 +18,6 @@ next(file)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #2. feladat
 
 magassagok=[]
