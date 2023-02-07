@@ -31,3 +31,4 @@ print(otvenalatt)
 
 
 #4. feladat
+
