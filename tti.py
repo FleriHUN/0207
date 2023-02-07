@@ -49,5 +49,25 @@ felelok.sort()
 with open("abc.txt", "w",encoding="UTF-8") as file:
     for nev in felelok:
         file.write(nev+"\n")
+file.close()
+
+#6. feladat
+
+testsulyok=[]
+for sor in sorok:
+    adatok=sor.strip().split("\t")
+    testsuly=int(adatok[2])
+    testsulyok.append(testsuly)
+
+for i in range(len(sorok)):
+    bmi = round(testsulyok[i]/(magassagok[i]/100)**2, 2)
+    if bmi<18:
+        testalkat="sovány"
+    elif bmi<25:
+        testalkat="normális"
+    else:
+        testalkat="túlsúlyos"
+    with open("index.txt", "a", encoding="UTF-8") as file:
+        file.write(sorok[i].strip().split("\t")[0]+ "\t" + str(bmi) + "\t" + testalkat + "\n")
 
 file.close()
