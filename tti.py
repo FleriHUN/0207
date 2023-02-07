@@ -10,49 +10,10 @@ for sor in file:
 
 file.close()
 
-#1. feladat
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #2. feladat
-
-
 
 atlagmag=sum(magassagok)/len(magassagok)
 atlagmag=round(atlagmag,2)
 print("Az átlagmagasság: ", atlagmag, "cm")
 
-#3. feladat
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#4.
-
-
+#4. feladat
