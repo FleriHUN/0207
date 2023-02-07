@@ -43,5 +43,11 @@ for sor in sorok:
 print(felelos, "fő felel meg a kritériumnak.")
 print("A megfelelő játékosok:", felelok)
 
+#5. feladat
 
-#file.close()
+felelok.sort()
+with open("abc.txt", "w",encoding="UTF-8") as file:
+    for nev in felelok:
+        file.write(nev+"\n")
+
+file.close()
