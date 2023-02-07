@@ -2,6 +2,42 @@ file=open("adatok.txt", "r")
 
 next(file)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #2. feladat
 
 magassagok=[]
